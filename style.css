@@ -1,0 +1,174 @@
+* {
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #fff0f7;
+}
+
+/* LOGIN */
+.login-body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#87ceeb,#e6ccff,#ffc0cb);
+}
+
+.login-box {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 280px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.login-box button {
+    background: #87ceeb;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    color: white;
+}
+
+/* LOGO SVG */
+.logo-svg {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg,#87ceeb,#e6ccff);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.logo-svg.small {
+    width: 45px;
+    height: 45px;
+}
+
+/* HEADER */
+header {
+    background: #87ceeb;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg,#e6ccff,#ffc0cb);
+}
+
+.btn {
+    background: #87ceeb;
+    border: none;
+    padding: 12px 25px;
+    color: white;
+    border-radius: 8px;
+}
+
+/* SECTION */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f3e8ff;
+    margin: 15px;
+    padding: 25px;
+    width: 200px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* GAMBAR PRODUK */
+.img-box {
+    height: 120px;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#87ceeb,#ffc0cb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+/* GAMBAR CARA KERJA */
+.step-box {
+    width: 70px;
+    height: 70px;
+    background: #87ceeb;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin: auto;
+}
+
+/* FOOTER */
+footer {
+    background: #87ceeb;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* ANIMASI */
+.animate {
+    animation: fadeUp 1s;
+}
+
+.animate-top {
+    animation: fadeDown 1s;
+}
+
+@keyframes fadeUp {
+    from {opacity:0; transform: translateY(30px);}
+    to {opacity:1; transform: translateY(0);}
+}
+
+@keyframes fadeDown {
+    from {opacity:0; transform: translateY(-30px);}
+    to {opacity:1; transform: translateY(0);}
+}
