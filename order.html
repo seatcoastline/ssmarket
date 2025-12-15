@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Order | GrowinID</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="animate-top">
+    <div class="logo">
+        <div class="logo-svg small">G</div>
+        <h1>GrowinID</h1>
+    </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#" onclick="logout()">Logout</a>
+    </nav>
+</header>
+
+<section class="section animate">
+    <h2>Form Pemesanan Jasa</h2>
+    <p>Isi data di bawah ini, tim kami akan menghubungi Anda</p>
+
+    <form class="order-form">
+        <input type="text" placeholder="Nama Lengkap" required>
+        <input type="text" placeholder="Nama Bisnis" required>
+        <input type="tel" placeholder="No WhatsApp" required>
+
+        <select required>
+            <option value="">Pilih Paket</option>
+            <option>Basic</option>
+            <option>Pro</option>
+        </select>
+
+        <textarea placeholder="Catatan Tambahan (opsional)"></textarea>
+
+        <button type="submit">Kirim Pesanan</button>
+    </form>
+</section>
+
+<footer>
+    © 2025 GrowinID
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
